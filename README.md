@@ -1,8 +1,22 @@
 Online jewellery Project:
 
-Implemented Functions: - user registration with greeting e-mail, login/logout - viewing products with images - adding products to the shopping cart - browsing the shopping cart with a possibility to order/delete the product - administrator section, where you can add/modify/delete entities - editing the commodity image (administrator only) - both server and client side validation for most operations
+Implemented Functions:
+- user registration with greeting e-mail, login/logout
+- viewing products with images - adding products to the shopping cart 
+- browsing the shopping cart with a possibility to order/delete the product 
+- administrator section, where you can add/modify/delete entities
+- editing the commodity image (administrator only)
+- both server and client side validation for most operations
 
-Elapsed Time: - database design, entity mapping, database access layer 4 hours - administrator section  8 hours - authentication, registration, user profile  6 hours - shopping cart, orders  2 hours - validation for all operations  5 hours - html/css writing 5 hours - deploying the project to a hosting 16 hours Total Elapsed Time: 46 hours
+Elapsed Time:
+- database design, entity mapping, database access layer 6 hours
+- administrator section  8 hours
+- authentication, registration, user profile  6 hours 
+- shopping cart, orders  2 hours
+- validation for all operations  5 hours
+- html/css writing 5 hours
+- deploying the project to a hosting 16 hours
+Total Elapsed Time: 48 hours
 
 Project Configuration: 1) To change database connectivity credentials, open [WEB-INF/classes/META-INF/persistence.xml] and modify these lines:
 
