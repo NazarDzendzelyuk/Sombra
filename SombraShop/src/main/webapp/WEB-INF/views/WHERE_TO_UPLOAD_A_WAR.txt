@@ -1,0 +1,16 @@
+Please upload Java apps (WAR files) to a appserver specific deployment directory under ~/appservers directory.
+These are:
+For Tomcat    - ~/appservers/apache-tomcat-X.X.X/webapps
+For Jetty     - ~/appservers/jetty-X.X.X/webapps
+For JBoss     - ~/appservers/jboss-as-X.X.X/standalone/deployments
+For Glassfish - ~/appservers/glassfish-X.X.X/glassfish/domains/domain1/applications
+
+~ is your home directory /home/username.
+
+By default all requests are mapped to appserver (nothing is read from public_html by webserver).
+
+public_html is only for non-Java apps like static HTML, PHP, Python, Perl.
+If you want to place something in public_html you need to unmap the URL from being passed to appserver.
+Login to Java Control Panel and find mapping tutorial in Mapping section.
+
+Happy hosting!
