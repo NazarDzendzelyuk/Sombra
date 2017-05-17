@@ -71,4 +71,4 @@ Used Frameworks:
 Other:
 - the eclipse project includes Maven build configuration to automatically create WAR and run it on embedded 
 - Tomcat Server - resources such as commodity images are located at https://adm.tools/hosting/ 
-- database dump is included
+- database dump is included.
