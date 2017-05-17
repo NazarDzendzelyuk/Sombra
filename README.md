@@ -54,16 +54,20 @@ Project Configuration: 1) To change database connectivity credentials, open [WEB
     /WEB-INF/security-context.xml
    </param-value>
   </context-param>
-Design Patterns: DAO - creating a layer of interfaces to access database and isolate it from business logic
-Factory - is used by jpa to provide entity managers
-Singleton - restricting the instantiation of a class to one object (Spring Beans)
-MVC - dividing a given application into three interconnected parts
-(M - model, V - view, C - controller) model - represented by the object which carries data
-view - represented by the visual part of application 
-controller - controls the data flow between model and view
-Used Frameworks: Java Persistence API - to work with the database
-Spring IoC - for dependency injection and beans management
-Spring MVC - for MVC pattern implementation Spring Security - for user authentication
+Design Patterns:
+	DAO - creating a layer of interfaces to access database and isolate it from business logic
+	Factory - is used by jpa to provide entity managers
+	Singleton - restricting the instantiation of a class to one object (Spring Beans)
+	MVC - dividing a given application into three interconnected parts (M - model, V - view, C - controller)
+	model - represented by the object which carries data
+	view - represented by the visual part of application
+	controller - controls the data flow between model and view
+
+Used Frameworks:
+	Java Persistence API - to work with the database
+	Spring IoC - for dependency injection and beans management
+	Spring MVC - for MVC pattern implementation
+	Spring Security - for user authentication
 Other:
 - the eclipse project includes Maven build configuration to automatically create WAR and run it on embedded 
 - Tomcat Server - resources such as commodity images are located at https://adm.tools/hosting/ 
